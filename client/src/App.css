@@ -1,0 +1,53 @@
+/* Container for top three posts */
+.top-three-posts {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Big post styling */
+.big-post {
+  margin-bottom: 20px;
+}
+
+/* Container for the two smaller posts */
+.small-posts {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+/* Styling for individual small posts */
+.small-post {
+  flex: 1;
+  margin: 0 10px;
+}
+
+/* Ensure images are responsive */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Related posts container with CSS grid */
+.related-posts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+/* Styling for individual related posts */
+.related-post {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* General styling */
+div {
+  margin-bottom: 20px;
+}
+
+h1, h2 {
+  margin-bottom: 10px;
+}
